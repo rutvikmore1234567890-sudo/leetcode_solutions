@@ -4,7 +4,7 @@ public:
          int n = nums.size();
         vector<int> ans(n, 1);
         
-        // prefix in ans
+     
         
         for(int i=1; i<n; i++){
             ans[i] = ans[i-1] * nums[i-1];
